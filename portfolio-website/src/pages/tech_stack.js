@@ -21,7 +21,8 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
             variants={pageVariants}
             transition={pageTransition}
         >
-            <div className="w-15 gap-y-7 gap-x-15 lg:gap-y-30 grid-row 2 grid-cols-3 items-center">
+
+            <div className="w-15 gap-y-7 gap-x-15 lg:gap-y-30 grid-row 2 grid-cols-3 items-center m-5">
 
                 <div className="inline-flex flex-col items-center">
                     <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
@@ -77,6 +78,13 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
 
                 <div className="inline-flex flex-col items-center">
                     <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <DiNodejs color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">Node.js</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
                         <SiRedux color="white" size="50%" />
                     </div>
                     <span className="font-bold text-sm sm:text-base mt-2">Redux</span>
@@ -96,6 +104,13 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
                     <span className="font-bold text-sm sm:text-base mt-2">Kubernetes</span>
                 </div>
 
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <SiTerraform color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">Terraform</span>
+                </div>
+
             </div>
 
             <div className="w-8/12 gap-y-7 gap-x-20 lg:gap-y-20 grid-flow-row grid-cols-4 grid-rows-1 items-center">
@@ -103,11 +118,39 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
 
                 <div className="inline-flex flex-col items-center">
                     <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
-                        <DiNodejs color="white" size="50%" />
+                        <FaAws color="white" size="50%" />
                     </div>
-                    <span className="font-bold text-sm sm:text-base mt-2">Node.js</span>
+                    <span className="font-bold text-sm sm:text-base mt-2">AWS</span>
                 </div>
 
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <SiGooglecloud color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">GCP</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <DiPostgresql color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">PostgreSQL</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <DiMongodb color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">MongoDB</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <DiMysql color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">MySQL</span>
+                </div>
 
                 <div className="inline-flex flex-col items-center">
                     <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
@@ -118,30 +161,9 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
 
                 <div className="inline-flex flex-col items-center">
                     <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
-                        <FaCss3Alt color="white" size="50%" />
+                        <DiGitBranch color="white" size="50%" />
                     </div>
-                    <span className="font-bold text-sm sm:text-base mt-2">CSS</span>
-                </div>
-
-                <div className="inline-flex flex-col items-center">
-                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
-                        <FaCss3Alt color="white" size="50%" />
-                    </div>
-                    <span className="font-bold text-sm sm:text-base mt-2">CSS</span>
-                </div>
-
-                <div className="inline-flex flex-col items-center">
-                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
-                        <FaCss3Alt color="white" size="50%" />
-                    </div>
-                    <span className="font-bold text-sm sm:text-base mt-2">CSS</span>
-                </div>
-
-                <div className="inline-flex flex-col items-center">
-                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
-                        <FaCss3Alt color="white" size="50%" />
-                    </div>
-                    <span className="font-bold text-sm sm:text-base mt-2">CSS</span>
+                    <span className="font-bold text-sm sm:text-base mt-2">Git</span>
                 </div>
 
             </div>
