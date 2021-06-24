@@ -11,7 +11,7 @@ const Header = ({ pageNo, setPageNo }) => {
         <div>
             <div className="flex items-center justify-between w-11/12 mx-auto py-8">
                 <div className="flex items-center ">
-                    <h1 className="text-lg hidden sm:flex sm:text-3xl tracking-wider">
+                    <h1 className="text-lg hidden sm:flex sm:text-3xl tracking-wider font-mono">
                         DAVID DIVYAN KUMAR
                     </h1>
                     <h1 className="text-lg sm:hidden sm:text-3xl tracking-wider">

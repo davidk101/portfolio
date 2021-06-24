@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['DM Sans'],
-        'serif': ['Merriweather']
+        'serif': ['Merriweather'],
+        'mono': ['Montserrat']
       }
     },
   },
