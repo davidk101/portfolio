@@ -30,9 +30,10 @@ const Navigation = ({ showMenu, setShowMenu, pageNo, setPageNo }) => {
                             <span className="tracking-wide">about</span>
                         </Link>
                     </div>
+
                     <div className={pageNo === 1 ? selectedCSS : deSelectedCSS}>
                         <Link
-                            to="/projects"
+                            to="/experience"
                             className={pageNo === 1 ? "cursor-default" : ""}
                             onClick={() => {
                                 setPageNo(1);
@@ -44,7 +45,7 @@ const Navigation = ({ showMenu, setShowMenu, pageNo, setPageNo }) => {
                     </div>
                     <div className={pageNo === 2 ? selectedCSS : deSelectedCSS}>
                         <Link
-                            to="/work"
+                            to="/projects"
                             className={pageNo === 2 ? "cursor-default" : ""}
                             onClick={() => {
                                 setPageNo(2);
@@ -56,7 +57,7 @@ const Navigation = ({ showMenu, setShowMenu, pageNo, setPageNo }) => {
                     </div>
                     <div className={pageNo === 3 ? selectedCSS : deSelectedCSS}>
                         <Link
-                            to="/tech"
+                            to="/tech_stack"
                             className={pageNo === 3 ? "cursor-default" : ""}
                             onClick={() => {
                                 setPageNo(3);

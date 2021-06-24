@@ -1,6 +1,6 @@
 import Header from "./components/header";
 import About from "./pages/about";
-import Projects from "./pages/experience";
+import Projects from "./pages/projects";
 import Work from "./pages/experience";
 import Tech_Stack from "./pages/tech_stack";
 import { AnimatePresence } from "framer-motion";
@@ -29,10 +29,9 @@ function App() {
     };
 
     const pageTransition = {
-        type: "spring",
-        velocity: 0.1,
-        damping: 12,
-    };
+        type: "tween",
+        duration: 0.5
+     };
 
     return (
         <div className="flex-col flex h-screen overflow-hidden">
@@ -50,14 +49,14 @@ function App() {
                                     pageTransition={pageTransition}
                                 />
                             </Route>
-                            <Route path="/work">
+                            <Route path="/experience">
                                 <Work
                                     setPage={setPageNo}
                                     pageVariants={pageVariants}
                                     pageTransition={pageTransition}
                                 />
                             </Route>
-                            <Route path="/tech">
+                            <Route path="/tech_stack">
                                 <Tech_Stack
                                     setPage={setPageNo}
                                     pageVariants={pageVariants}
@@ -84,34 +83,34 @@ function App() {
                                 className={pageNo === 0 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(0)}
                             >
-                                <span className="tracking-wide">ABOUT</span>
+                                <span className="tracking-wide">about</span>
                             </Link>
                         </div>
                         <div className={pageNo === 1 ? selectedCSS : deSelectedCSS}>
                             <Link
-                                to="/projects"
+                                to="/experience"
                                 className={pageNo === 1 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(1)}
                             >
-                                <span className="tracking-wide">PROJECTS</span>
+                                <span className="tracking-wide">experience</span>
                             </Link>
                         </div>
                         <div className={pageNo === 2 ? selectedCSS : deSelectedCSS}>
                             <Link
-                                to="/work"
+                                to="/projects"
                                 className={pageNo === 2 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(2)}
                             >
-                                <span className="tracking-wide">WORK</span>
+                                <span className="tracking-wide">projects</span>
                             </Link>
                         </div>
                         <div className={pageNo === 3 ? selectedCSS : deSelectedCSS}>
                             <Link
-                                to="/tech"
+                                to="/tech_stack"
                                 className={pageNo === 3 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(3)}
                             >
-                                <span className="tracking-wide">TECH</span>
+                                <span className="tracking-wide">tech stack</span>
                             </Link>
                         </div>
                     </div>

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import WorkCard from "../components/experience";
+import Experience from "../components/experience";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { motion } from "framer-motion";
 
-const Work = ({ setPage, pageVariants, pageTransition }) => {
+const Projects = ({ setPage, pageVariants, pageTransition }) => {
     useEffect(() => {
         setPage(2);
     });
@@ -54,7 +54,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
                             className={index === currentPage ? "card active w-full" : "card"}>
 
                             {index === currentPage && (
-                                <WorkCard
+                                <Experience
                                     company={work.head1}
                                     position={work.head2}
                                     duration={work.head3}
@@ -75,4 +75,4 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
     );
 };
 
-export default Work;
+export default Projects;

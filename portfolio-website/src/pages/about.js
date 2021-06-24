@@ -16,7 +16,7 @@ const About = ({ setPage, pageVariants, pageTransition }) => {
             transition={pageTransition}>
 
             <div className="flex-1 flex items-center justify-center overflow-auto">
-                <div className="ml-0 xl:ml-40 mb-24 w-2/3">
+                <div className="ml-0 xl:ml-40 mb-24 w-2/3 my-10">
                     <h1 className="text-4xl mt-12 sm:text-7xl font-bold tracking-wide">
                         full-stack & mobile software engineer
                     </h1>
