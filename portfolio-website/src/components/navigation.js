@@ -27,7 +27,7 @@ const Navigation = ({ showMenu, setShowMenu, pageNo, setPageNo }) => {
                                 setShowMenu(false);
                             }}
                         >
-                            <span className="tracking-wide">ABOUT</span>
+                            <span className="tracking-wide">about</span>
                         </Link>
                     </div>
                     <div className={pageNo === 1 ? selectedCSS : deSelectedCSS}>
@@ -39,7 +39,7 @@ const Navigation = ({ showMenu, setShowMenu, pageNo, setPageNo }) => {
                                 setShowMenu(false);
                             }}
                         >
-                            <span className="tracking-wide">PROJECTS</span>
+                            <span className="tracking-wide">experience</span>
                         </Link>
                     </div>
                     <div className={pageNo === 2 ? selectedCSS : deSelectedCSS}>
@@ -51,7 +51,7 @@ const Navigation = ({ showMenu, setShowMenu, pageNo, setPageNo }) => {
                                 setShowMenu(false);
                             }}
                         >
-                            <span className="tracking-wide">WORK</span>
+                            <span className="tracking-wide">projects</span>
                         </Link>
                     </div>
                     <div className={pageNo === 3 ? selectedCSS : deSelectedCSS}>
@@ -63,7 +63,7 @@ const Navigation = ({ showMenu, setShowMenu, pageNo, setPageNo }) => {
                                 setShowMenu(false);
                             }}
                         >
-                            <span className="tracking-wide">TECH</span>
+                            <span className="tracking-wide">tech stack</span>
                         </Link>
                     </div>
                 </motion.div>

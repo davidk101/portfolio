@@ -15,14 +15,18 @@ const About = ({ setPage, pageVariants, pageTransition }) => {
             variants={pageVariants}
             transition={pageTransition}>
 
-            <div className="flex-1 flex items-center justify-center">
-                <div className="ml-0 xl:ml-32 mb-24 w-2/3">
-                    <h1 className="text-4xl mt-12 sm:text-8xl font-bold tracking-wide">
-                        full stack and mobile software engineer
+            <div className="flex-1 flex items-center justify-center overflow-auto">
+                <div className="ml-0 xl:ml-40 mb-24 w-2/3">
+                    <h1 className="text-4xl mt-12 sm:text-7xl font-bold tracking-wide">
+                        full-stack & mobile software engineer
                     </h1>
-                    <div className="bg-black h-1 w-12 ml-1 sm:w-24 sm:ml-2 mt-2"></div>
-                    <p className="sm:ml-1 text-base mt-6 sm:mt-12 sm:text-lg">
-                        Intro here!
+                    <p className="sm:ml-1 text-base mt-6 sm:mt-12 sm:text-lg font-serif text-gray-500">
+                        <p className = "my-5">
+                            Hey there! My name is David Kumar and I am a Senior pursuing a B.S. in Computer Engineering at The University of Texas at Dallas.
+                        </p>
+                        <p className = "my-5">
+                            As a Software Engineer Intern at Fortune 500s, start-ups and non-profits, I hope to utilize these skills for a full-time position after my graduation in May of 2022.
+                        </p>
                     </p>
 
                 </div>
