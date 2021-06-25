@@ -83,7 +83,7 @@ function App() {
                                 className={pageNo === 0 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(0)}
                             >
-                                <span className="tracking-wide">about</span>
+                                <span className="tracking-wide">ABOUT</span>
                             </Link>
                         </div>
                         <div className={pageNo === 1 ? selectedCSS : deSelectedCSS}>
@@ -92,7 +92,7 @@ function App() {
                                 className={pageNo === 1 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(1)}
                             >
-                                <span className="tracking-wide">experience</span>
+                                <span className="tracking-wide">EXPERIENCE</span>
                             </Link>
                         </div>
                         <div className={pageNo === 2 ? selectedCSS : deSelectedCSS}>
@@ -101,7 +101,7 @@ function App() {
                                 className={pageNo === 2 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(2)}
                             >
-                                <span className="tracking-wide">projects</span>
+                                <span className="tracking-wide">PROJECTS</span>
                             </Link>
                         </div>
                         <div className={pageNo === 3 ? selectedCSS : deSelectedCSS}>
@@ -110,7 +110,7 @@ function App() {
                                 className={pageNo === 3 ? "cursor-default" : ""}
                                 onClick={() => setPageNo(3)}
                             >
-                                <span className="tracking-wide">tech stack</span>
+                                <span className="tracking-wide">TECH STACK</span>
                             </Link>
                         </div>
                     </div>
