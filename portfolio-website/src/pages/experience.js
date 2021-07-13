@@ -11,21 +11,54 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
     const workList = [
         {
             head1: "Beyond The Horizon Technology",
-            head2: "Software Engineer Intern",
-            head3: "August 2021 - Present",
-            body1:
-                "fgvw",
-            body2:
-                "sss",
+            head2: "Incoming Data Engineer Intern | August 2021 - Present | Startup",
         },
         {
-            head1: "Beyond The Horizon Technology",
-            head2: "Software Engineer Intern",
-            head3: "August 2021 - Present",
+            head1: "NCR Corporation",
+            head2: "Software Engineer Intern | May - August 2021 | Fortune 500",
             body1:
-                "dninv",
+                "Deployed a feature being rolled out to 500+ new restaurants in North America every month starting in Q1 of 2022 to establish IoT security across the entire lifecycle of Point-Of-Sale terminal systems.",
             body2:
-                "sss",
+                "Built an API to initiate a chain of trust between handheld devices and Kubernetes clusters on-prem.",
+            body3:"Reduced the time taken to bootstrap trust in clusters of newly manufactured handheld devices by 50%.",
+            body4:"Tech Stack:  Go, Docker, Kubernetes, Terraform, GCP"
+        },
+        {
+            head1: "Autism Treatment Center",
+            head2: "Software Developer | January - May 2021 | Startup",
+            body1:
+                "Implemented a patient management system in-house to reduce expenditure by $15,000 annually.",
+            body2:
+                "Architected user authentication and authorization for delegation of administrative privileges while meeting HIPAA privacy standards.",
+            body3: "Developed a RESTful API to manage patient, therapist and session data.",
+            body4:"Tech Stack:  Node.js, Express.js, React.js, TypeScript, MongoDB"
+        },
+        {
+            head1: "Association for Computing Machinery",
+            head2: "Undergraduate Researcher | February - May 2021",
+            body1:
+                "Improved the utility of temporal LiDAR data in the semantic segmentation of objects on the road by an accuracy of 3-5%.",
+            body2:
+                "Implemented a Local Feature Aggregation model for the LiDAR point cloud.",
+            body3:"Increased the density of the LiDAR point cloud by utilizing the Iterative Closest Point algorithm.",
+            body4:"Tech Stack: Python, C++, TensorFlow"
+        },
+        {
+            head1: "City of Dallas - Office of Innovation",
+            head2: "Software Developer | August - December 2020",
+            body1:
+                "Developed an API to retrieve service request data from the Salesforce database schema in real-time.",
+            body2:
+                "Optimized retrieval of service request data for the preceding 60 months by 30%.",
+            body3:"Automated 'Service Performance Reports' generation for Dallas' 14 City Council Members.",
+            body4:"Tech Stack:  Node.js, Express.js, React.js, TypeScript, SOQL"
+        },
+        {
+            head1: "UT Dallas",
+            head2: "Peer Advisor| August 2019 - May 2021",
+            body1:
+                "Advised and mentored 40+ undergraduate Engineering majors for four semesters to promote academic excellence in the field of Engineering while ensuring a smooth transition from high school to college.",
+
         }
     ];
 
@@ -66,9 +99,10 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
                                 <WorkCard
                                     head1={work.head1}
                                     head2={work.head2}
-                                    head3={work.head3}
                                     body1={work.body1}
-                                    body3={work.body2}/>
+                                    body2={work.body2}
+                                    body3={work.body3}
+                                    body4={work.body4}/>
                             )}
                         </div>
                     );
