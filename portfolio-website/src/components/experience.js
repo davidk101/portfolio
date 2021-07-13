@@ -9,10 +9,10 @@ const WorkCard = ({ head1, head2, body1, body2, body3, body4 }) => {
                     {head2}
                 </p>
                 <ul className="list-disc mt-10 ml-6 text-gray-500 font-serif text-lg">
-                    <li className="text-sm md:text-base">{body1}</li>
-                    <li className="mt-4 text-sm md:text-base">{body2}</li>
-                    <li className="mt-4 text-sm md:text-base">{body3}</li>
-                    <li className="mt-4 text-sm md:text-base">{body4}</li>
+                    <li className="text-sm md:text-base list-none">{body1}</li>
+                    <li className="mt-4 text-sm md:text-base list-none">{body2}</li>
+                    <li className="mt-4 text-sm md:text-base list-none">{body3}</li>
+                    <li className="mt-4 text-sm md:text-base list-none">{body4}</li>
                 </ul>
             </div>
         </div>
