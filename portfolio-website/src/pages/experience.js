@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import WorkCard from "../components/experience";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { RiArrowLeftCircleFill, RiArrowRightCircleFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 const Work = ({ setPage, pageVariants, pageTransition }) => {
@@ -11,7 +11,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
     const workList = [
         {
             head1: "Beyond The Horizon Technology",
-            head2: "Incoming Data Engineer Intern | August 2021 - Present | Startup",
+            head2: "Incoming Data Engineer Intern | August 2021 - December 2021 | Startup",
         },
         {
             head1: "NCR Corporation",
@@ -83,7 +83,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
             transition={pageTransition}
         >
             <div className="h-3/4 w-11/12 sm:w-10/12 flex items-center">
-                <IoIosArrowBack
+                <RiArrowLeftCircleFill
                     size="50"
                     className="cursor-pointer scale-75 lg:scale-100 lg:hover:scale-90 mb-16 transition duration-400 ease-in-out transform hover:-translate-x-1 hover:scale-125"
                     onClick={prevPage}
@@ -108,7 +108,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
                     );
                 })}
 
-                <IoIosArrowForward
+                <RiArrowRightCircleFill
                     size="50"
                     className="cursor-pointer scale-75 lg:scale-100 lg:hover:scale-90 mb-16 transition duration-400 ease-in-out transform hover:translate-x-1 hover:scale-125"
                     onClick={nextPage}

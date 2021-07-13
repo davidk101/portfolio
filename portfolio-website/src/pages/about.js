@@ -25,7 +25,7 @@ const About = ({ setPage, pageVariants, pageTransition }) => {
                             Hey there! My name is David Kumar and I am a Senior pursuing a B.S. in Computer Engineering at The University of Texas at Dallas.
                         </p>
                         <p className = "my-5">
-                            I have interned as a Software Engineer at Fortune 500s, start-ups and non-profits and I hope to utilize these skills for a full-time position.
+                            I have interned as a Software Engineer at Fortune 500s, start-ups and non-profits and I hope to utilize the skills I've learned from these places for a full-time position.
                         </p>
                     </p>
 
