@@ -1,6 +1,6 @@
 import React from "react";
-import { AiFillGithub } from "react-icons/ai";
-import { FiExternalLink } from "react-icons/fi";
+import { AiOutlineLink} from "react-icons/ai";
+import { RiGithubLine} from "react-icons/ri";
 
 const ProjectCard = ({ img, title, description, github, website }) => {
     return (
@@ -16,10 +16,10 @@ const ProjectCard = ({ img, title, description, github, website }) => {
                 </div>
                 <div className="flex md:mt-8">
                     <a href={github} target="_blank" rel="noopener noreferrer">
-                        <AiFillGithub size="35" className="ml-1 cursor-pointer" />
+                        <RiGithubLine size="35" className="ml-1 cursor-pointer" />
                     </a>
                     <a href={website} target="_blank" rel="noopener noreferrer">
-                        <FiExternalLink size="35" className="ml-6 cursor-pointer" />
+                        <AiOutlineLink size="35" className="ml-6 cursor-pointer" />
                     </a>
                 </div>
             </div>
