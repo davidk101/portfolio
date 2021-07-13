@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import {SiJavascript, SiTypescript, SiRedux, SiGooglecloud, SiTerraform, SiKubernetes } from "react-icons/si";
+import {SiJavascript, SiTypescript, SiCocoapods, SiFirebase, SiRedux, SiGooglecloud, SiTerraform, SiKubernetes } from "react-icons/si";
 import {AiFillHtml5} from "react-icons/ai";
-import {DiGitBranch, DiNodejs, DiJava, DiPostgresql, DiMongodb, DiMysql, DiReact} from 'react-icons/di';
+import {DiGitBranch, DiNodejs, DiJava, DiPostgresql, DiMongodb, DiMysql, DiReact, DiPython, DiSwift} from 'react-icons/di';
 import {FaAws, FaCss3Alt, FaDochub, FaDocker} from 'react-icons/fa';
 
 const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
@@ -19,14 +19,7 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
             variants={pageVariants}
             transition={pageTransition}
         >
-            <div className = "grid grid-cols-3 md:grid-cols-5 overflow-auto ml-20 mr-20 overflow-auto">
-
-                <div className="inline-flex flex-col items-center">
-                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
-                        <SiJavascript color="white" size="50%" />
-                    </div>
-                    <span className="font-bold text-sm sm:text-base mt-2">JavaScript</span>
-                </div>
+            <div className = "grid grid-cols-3 md:grid-cols-7 overflow-auto ml-20 mr-20 overflow-auto">
 
                 <div className="inline-flex flex-col items-center">
                     <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
@@ -40,6 +33,27 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
                         <DiJava color="white" size="50%" />
                     </div>
                     <span className="font-bold text-sm sm:text-base mt-2">Java</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <DiPython color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">Python</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <SiJavascript color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">JavaScript</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <DiSwift color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">Swift</span>
                 </div>
 
                 <div className="inline-flex flex-col items-center">
@@ -129,6 +143,13 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
 
                 <div className="inline-flex flex-col items-center">
                     <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <SiFirebase color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">Firebase</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
                         <DiMysql color="white" size="50%" />
                     </div>
                     <span className="font-bold text-sm sm:text-base mt-2">MySQL</span>
@@ -139,6 +160,13 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
                         <DiGitBranch color="white" size="50%" />
                     </div>
                     <span className="font-bold text-sm sm:text-base mt-2">Git</span>
+                </div>
+
+                <div className="inline-flex flex-col items-center">
+                    <div className="bg-black w-20 h-20 lg:w-30 lg:h-30 rounded-full flex items-center justify-center">
+                        <SiCocoapods color="white" size="50%" />
+                    </div>
+                    <span className="font-bold text-sm sm:text-base mt-2">Cocoapods</span>
                 </div>
             </div>
         </motion.div>

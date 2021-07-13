@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Experience from "../components/experience";
+import ProjectsCard from "../components/projects";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { motion } from "framer-motion";
 
@@ -8,20 +8,29 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
         setPage(2);
     });
 
-    const workList = [
+    const projectsList = [
         {
-            head1: "Beyond The Horizon Technology",
-            head2: "Software Engineer Intern",
-            head3: "August 2021 - Present",
-            body1:
-                "1234",
-            body2:
-                "sss",
-        }
+            image: "x",
+            title: "Hello",
+            description:
+                "descr",
+            github: "",
+            website:
+                "",
+        },
+        {
+            image: "x",
+            title: "123",
+            description:
+                "descr",
+            github: "",
+            website:
+                "",
+        },
     ];
 
     const [currentPage, setCurrentPage] = useState(0);
-    const length = workList.length;
+    const length = projectsList.length;
 
     const nextPage = () => {
         setCurrentPage(currentPage === length - 1 ? 0 : currentPage + 1);
@@ -47,19 +56,22 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
                     onClick={prevPage}
                 />
 
-                {workList.map((work, index) => {
+                {projectsList.map((project, index) => {
                     return (
                         <div
                             key={index}
-                            className={index === currentPage ? "card active w-full" : "card"}>
-
+                            className={
+                                index === currentPage ? "card active w-full h-full" : "card"
+                            }
+                        >
                             {index === currentPage && (
-                                <Experience
-                                    company={work.head1}
-                                    position={work.head2}
-                                    duration={work.head3}
-                                    info1={work.body1}
-                                    info2={work.body2}/>
+                                <ProjectsCard
+                                    img={project.image}
+                                    title={project.title}
+                                    description={project.description}
+                                    github={project.github}
+                                    website={project.website}
+                                />
                             )}
                         </div>
                     );

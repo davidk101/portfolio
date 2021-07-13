@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Work = ({ setPage, pageVariants, pageTransition }) => {
     useEffect(() => {
-        setPage(2);
+        setPage(1);
     });
 
     const workList = [
@@ -14,7 +14,16 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
             head2: "Software Engineer Intern",
             head3: "August 2021 - Present",
             body1:
-                "1234",
+                "fgvw",
+            body2:
+                "sss",
+        },
+        {
+            head1: "Beyond The Horizon Technology",
+            head2: "Software Engineer Intern",
+            head3: "August 2021 - Present",
+            body1:
+                "dninv",
             body2:
                 "sss",
         }
@@ -55,11 +64,11 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
 
                             {index === currentPage && (
                                 <WorkCard
-                                    company={work.head1}
-                                    position={work.head2}
-                                    duration={work.head3}
-                                    info1={work.body1}
-                                    info2={work.body2}/>
+                                    head1={work.head1}
+                                    head2={work.head2}
+                                    head3={work.head3}
+                                    body1={work.body1}
+                                    body3={work.body2}/>
                             )}
                         </div>
                     );
