@@ -2,7 +2,7 @@ import Header from "./components/header";
 import About from "./pages/about";
 import Projects from "./pages/projects";
 import Work from "./pages/experience";
-import Tech_Stack from "./pages/tech_stack";
+import TechStack from "./pages/tech_stack";
 import { AnimatePresence } from "framer-motion";
 
 import { Link, Switch, Route } from "react-router-dom";
@@ -57,7 +57,7 @@ function App() {
                                 />
                             </Route>
                             <Route path="/tech_stack">
-                                <Tech_Stack
+                                <TechStack
                                     setPage={setPageNo}
                                     pageVariants={pageVariants}
                                     pageTransition={pageTransition}

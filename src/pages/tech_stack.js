@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import {SiJavascript, SiTypescript, SiCocoapods, SiFirebase, SiRedux, SiGooglecloud, SiTerraform, SiKubernetes } from "react-icons/si";
 import {AiFillHtml5} from "react-icons/ai";
 import {DiGitBranch, DiNodejs, DiJava, DiPostgresql, DiMongodb, DiMysql, DiReact, DiPython, DiSwift} from 'react-icons/di';
-import {FaAws, FaCss3Alt, FaDochub, FaDocker} from 'react-icons/fa';
+import {FaAws, FaCss3Alt, FaDocker} from 'react-icons/fa';
 
-const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
+const TechStack = ({ setPage, pageVariants, pageTransition }) => {
     useEffect(() => {
         setPage(3);
     });
@@ -173,4 +173,4 @@ const Tech_Stack = ({ setPage, pageVariants, pageTransition }) => {
     );
 };
 
-export default Tech_Stack;
+export default TechStack;
