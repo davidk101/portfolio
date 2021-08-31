@@ -11,11 +11,31 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
     const projectsList = [
         {
             image: "",
+            title: "PediaTrek",
+            description1:
+                "iOS app in Augmented Reality to assist with inpatient mobility and provide patient discharge education",
+            description2: "App Acquired by Children’s Health™ - 750,000+ annual patients",
+            github: "https://github.com/davidk101",
+            website:
+                "https://drive.google.com/file/d/1Y0xrkMHWfP8kvtFDRLXDCM11gbhFs2fh/view?usp=sharing",
+        },
+        {
+            image: "",
             title: "Playback Speed Control",
             description1:
                 "Google Chrome extension to scrub the playback speed of Blackboard Collaborate videos.",
-            description2: "20+ weekly users on the Chrome Webstore.",
+            description2: "60+ weekly users on the Chrome Webstore.",
             github: "https://github.com/davidk101/playback-speed-control",
+            website:
+                "https://chrome.google.com/webstore/detail/blackboard-collaborate-pl/llnbibipjggpeacamkhgkkebjgjaahjb",
+        },
+        {
+            image: "",
+            title: "WKWebViewGrid",
+            description1:
+                "Package to add grid functionality to WKWebViews to support in-app browsing for macOS.",
+            description2: "10+ installs on CocoaPods",
+            github: "https://github.com/davidk101/wkwebviewgrid",
             website:
                 "https://chrome.google.com/webstore/detail/blackboard-collaborate-pl/llnbibipjggpeacamkhgkkebjgjaahjb",
         },

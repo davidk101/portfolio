@@ -25,7 +25,7 @@ const About = ({ setPage, pageVariants, pageTransition }) => {
                             Hey there! My name is David Kumar and I am a Senior graduating in May of 2022 with a B.S. in Computer Engineering from The University of Texas at Dallas.
                         </p>
                         <p className = "my-5">
-                            With my experience interning as a Software Engineer at a Fortune 500, start-ups and non-profits, I have a proven track record of delivering optimal solutions using a diverse set of software tools!
+                            With my experience, I have a proven track record of delivering optimal, scalable solutions using a diverse set of software tools.
                         </p>
                     </p>
 
