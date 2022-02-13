@@ -10,10 +10,22 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
 
     const workList = [
         {
+            head1: "Amazon",
+            head2: "Incoming Software Development Engineer - June 2022",
+            body1: "",
+            body2: "",
+        },
+        {
             head1: "Beyond The Horizon Technology",
-            head2: "Data Engineering Intern | August 2021 - December 2021",
-            body1: "Data Migration Validation & Data Flow Automation",
-            body2: "Tech: Java, MongoDB, SQL, PostgreSQL, Salesforce",
+            head2: "Software Engineering Intern | January - May 2022",
+            body1: "Kubernetes-native CI/CD pipeline development\n",
+            body2: "Tech: Java, OpenShift, AWS, Tekton",
+        },
+        {
+            head1: "Beyond The Horizon Technology",
+            head2: "Data Engineering Intern | August - December 2021",
+            body1: "Enterprise Architecture",
+            body2: "Tech: Bash, Python, AWS, SQL",
         },
         {
             head1: "NCR Corporation",

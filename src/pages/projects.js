@@ -24,7 +24,7 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
             title: "Playback Speed Control",
             description1:
                 "Google Chrome extension to scrub the playback speed of Blackboard Collaborate videos.",
-            description2: "60+ weekly users on the Chrome Webstore.",
+            description2: "200+ weekly users on the Chrome Webstore.",
             github: "https://github.com/davidk101/playback-speed-control",
             website:
                 "https://chrome.google.com/webstore/detail/blackboard-collaborate-pl/llnbibipjggpeacamkhgkkebjgjaahjb",
@@ -50,15 +50,6 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
         },
         {
             image: "",
-            title: "Cryptobite Server",
-            description1:
-                "Blockchain implementation for an iOS App that allows users to use Proof-Of-Stake algorithms to invest in a real-time cryptocurrency market.",
-            description2:"Tech Stack: Go",
-            github: "https://github.com/davidk101/cyptobite-server",
-            website: "https://github.com/davidk101/cyptobite-server",
-        },
-        {
-            image: "",
             title: "Cardstock",
             description1:"Real-time Labor-As-A-Service application that enables users to find, request and and pay for services.",
             description2:"Tech Stack: Swift, Firebase",
@@ -78,7 +69,7 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
             image: "",
             title: "Hold on!",
             description1:
-                "These are only a few of the projects I've worked on that are either deployed or near-deployed.",
+                "These are only a few of the projects I've worked on that are either deployed or nearly deployed.",
             description2: "I have 40+ repositories with several other projects that I'd love for you to check out!",
             github: "https://github.com/davidk101",
             website:
