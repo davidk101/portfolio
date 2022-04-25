@@ -22,7 +22,7 @@ const About = ({ setPage, pageVariants, pageTransition }) => {
                     </h1>
                     <p className="sm:ml-1 text-base mt-6 sm:mt-12 sm:text-xl font-serif text-gray-500">
                         <p className = "my-5">
-                            Hey there! I am an AWS-Certified, five-time tech intern with several apps that have amassed hundreds of users - one of which was acquired in August'21 by a company with $1,000,000,000 in assets.
+                            
                         </p>
                     </p>
 
