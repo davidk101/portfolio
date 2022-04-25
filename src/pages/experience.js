@@ -11,7 +11,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
     const workList = [
         {
             head1: "Amazon",
-            head2: "Incoming Software Development Engineer - June 2022",
+            head2: "Software Development Engineer",
             body1: "",
             body2: "",
         },
