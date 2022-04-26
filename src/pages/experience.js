@@ -11,25 +11,25 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
     const workList = [
         {
             head1: "Amazon",
-            head2: "Software Development Engineer",
-            body1: "",
-            body2: "",
+            head2: "Software Development Engineer | June 2022",
+            body1: "Employee Services Tech",
+            body2: "Tech: Java, TypeScript, AWS",
         },
         {
             head1: "Beyond The Horizon Technology",
-            head2: "Software Engineering Intern | January - May 2022",
+            head2: "Software Engineering Intern | Spring 2022",
             body1: "Kubernetes-native CI/CD pipeline development\n",
             body2: "Tech: Java, OpenShift, AWS, Tekton",
         },
         {
             head1: "Beyond The Horizon Technology",
-            head2: "Data Engineering Intern | August - December 2021",
+            head2: "Data Engineering Intern | Fall 2021",
             body1: "Enterprise Architecture",
             body2: "Tech: Bash, Python, AWS, SQL",
         },
         {
             head1: "NCR Corporation",
-            head2: "Software Engineering Intern | May - August 2021",
+            head2: "Software Engineering Intern | Summer 2021",
             body1:
                 "IoT Security for in-store devices",
             body2:
@@ -37,7 +37,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
         },
         {
             head1: "Autism Treatment Center",
-            head2: "Software Development Intern | January - May 2021 ",
+            head2: "Software Development Intern | Spring 2021 ",
             body1:
                 "API for an in-house patient management system",
             body2:
@@ -45,7 +45,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
         },
         {
             head1: "Association for Computing Machinery",
-            head2: "Undergraduate Researcher | January - May 2021",
+            head2: "Undergraduate Researcher | Spring 2021",
             body1:
                 "Utility of temporal LiDAR data in semantic segmentation\n",
             body2:
@@ -54,8 +54,8 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
             body4:"Honors: Awarded First Place overall at the Research Symposium"
         },
         {
-            head1: "City of Dallas - Office of Innovation",
-            head2: "Software Development Intern | August - December 2020",
+            head1: "City of Dallas",
+            head2: "Software Development Intern | Fall 2020",
             body1:
                 "API for a real-time Service Request dashboard",
             body2:
