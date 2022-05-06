@@ -24,7 +24,7 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
             title: "Playback Speed Control",
             description1:
                 "Google Chrome extension to scrub the playback speed of Blackboard Collaborate videos.",
-            description2: "200+ weekly users on the Chrome Webstore.",
+            description2: "400+ installs on the Chrome Webstore.",
             github: "https://github.com/davidk101/playback-speed-control",
             website:
                 "https://chrome.google.com/webstore/detail/blackboard-collaborate-pl/llnbibipjggpeacamkhgkkebjgjaahjb",
@@ -33,11 +33,11 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
             image: "",
             title: "WKWebViewGrid",
             description1:
-                "Package to add grid functionality to WKWebViews to support in-app browsing for macOS.",
+                "iOS Package to add grid functionality to WKWebViews to support in-app browsing for macOS.",
             description2: "10+ installs on CocoaPods",
             github: "https://github.com/davidk101/wkwebviewgrid",
             website:
-                "https://chrome.google.com/webstore/detail/blackboard-collaborate-pl/llnbibipjggpeacamkhgkkebjgjaahjb",
+                "https://cocoapods.org/",
         },
         {
             image: "",
@@ -58,19 +58,19 @@ const Projects = ({ setPage, pageVariants, pageTransition }) => {
         },
         {
             image: "",
-            title: "Markdown",
+            title: "OpenShift Disaster Recovery CLI",
             description1:
-                "Website to fetch student discount deals in the Dallas-Fort Worth metroplex.",
-            description2:"Tech Stack: React.js, Firebase",
-            github: "https://github.com/davidk101/markdown",
-            website: "https://github.com/davidk101/markdown",
+                "CLI to backup and restore YAMLs from an Openshift Cluster.",
+            description2:"Tech Stack: Bash",
+            github: "https://github.com/davidk101/openshift-cluster-disaster-recovery-utility",
+            website: "https://github.com/davidk101/openshift-cluster-disaster-recovery-utility",
         },
         {
             image: "",
             title: "Hold on!",
             description1:
                 "These are only a few of the projects I've worked on that are either deployed or nearly deployed.",
-            description2: "I have 40+ repositories with several other projects that I'd love for you to check out!",
+            description2: "I have 50+ repositories with several other projects that I'd love for you to check out!",
             github: "https://github.com/davidk101",
             website:
                 "https://github.com/davidk101",
