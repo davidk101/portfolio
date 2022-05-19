@@ -3,6 +3,7 @@ import HamburgerMenu from "react-hamburger-menu";
 import email from "../assets/email.png";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
+import Navigation from "../components/navigation";
 
 const Header = ({ pageNo, setPageNo }) => {
     const [showMenu, setShowMenu] = useState(false);
@@ -48,7 +49,12 @@ const Header = ({ pageNo, setPageNo }) => {
                     />
                 </div>
             </div>
-
+            <Navigation
+                showMenu={showMenu}
+                setShowMenu={setShowMenu}
+                pageNo={pageNo}
+                setPageNo={setPageNo}
+            />
         </div>
     );
 };
