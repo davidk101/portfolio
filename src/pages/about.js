@@ -22,7 +22,7 @@ const About = ({ setPage, pageVariants, pageTransition }) => {
                     </h1>
                     <p className="sm:ml-1 text-base mt-6 sm:mt-12 sm:text-xl font-serif text-gray-500">
                         <p className = "my-5">
-                            
+                            Graduated with a B.S. in Computer Engineering from The University of Texas at Dallas in May '22
                         </p>
                     </p>
 
