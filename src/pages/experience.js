@@ -13,7 +13,7 @@ const Work = ({ setPage, pageVariants, pageTransition }) => {
             head1: "Amazon",
             head2: "Software Development Engineer",
             body1: "Amazonian Experience & Technology",
-            body2: "",
+            body2: "Tech: Java, TypeScript, AWS",
         },
         {
             head1: "Beyond The Horizon Technology",
